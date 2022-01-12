@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ page import="java.util.*" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Student Registration Form</title>
+</head>
+<div style="height:65px;align: center;background: #DB5227;font-family: Arial;color: white;"">
+		
+	<a href="" style="font-family:garamond;font-size:34px;margin:0px 0px 0px 10px;color:white;text-decoration: none;">Registration</a> 				
+	<a href="<%=request.getContextPath()%>/register" style="font-size:16px;color:black;margin-left:50px;text-decoration:none;">Insert</a>
+	<a href="<%=request.getContextPath()%>/update?id=${student.id}" style="font-size:16px;color:black;margin-left:150px;text-decoration:none;">Update</a>	
+	<a href="<%=request.getContextPath()%>/delete?id=${student.id}" style="font-size:16px;color:black;margin-left:150px;text-decoration:none;">Delete</a>	
+	<a href="<%=request.getContextPath()%>/report?id=${student.id}" style="font-size:16px;color:black;margin-left:150px;text-decoration:none;">Report</a>	
+		</div>
+	
+	<br>		    	
